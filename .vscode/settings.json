@@ -1,10 +1,10 @@
 {
   "editor.minimap.enabled": false,
-  "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
-  "editor.lineHeight": 24,
   "[markdown]": {
-    "editor.quickSuggestions": true
+    "editor.quickSuggestions": false,
+    "editor.rulers": [],
+    "editor.occurrencesHighlight": false,
   },
   "files.defaultLanguage": "markdown",
   "files.exclude": {
@@ -16,6 +16,7 @@
   "foam.edit.linkReferenceDefinitions": "off",
   "foam.openDailyNote.directory": "journal",
   "foam.openDailyNote.titleFormat": "fullDate",
+  "foam.openDailyNote.filenameFormat": "yyyy'/'mm'/'dd",
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "markdown.preview.breaks": true,
@@ -25,4 +26,9 @@
   "spellright.notificationClass": "warning",
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+  "spellright.language": [],
+  "spellright.documentTypes": [
+      "latex",
+      "plaintext"
+  ],
 }
