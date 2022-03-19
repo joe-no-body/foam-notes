@@ -30,5 +30,6 @@
   "spellright.documentTypes": [
       "latex",
       "plaintext"
-  ],
+],
+"rewrap.wrappingColumn": 80,
 }
