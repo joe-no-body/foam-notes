@@ -4,7 +4,7 @@
 
 looking at Twine + SugarCube 2 for now
 
-Basic observationss
+Basic observations
 
 - Twine expects to find a `<tw-storydata>` tag in the code - if it doesn't, it won't recognize the story file as valid
 
